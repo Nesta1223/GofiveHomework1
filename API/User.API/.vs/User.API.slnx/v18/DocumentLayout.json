@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\InternQuest\\API\\User.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\domain\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\domain\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\domain\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\domain\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\domain\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\domain\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\Gofive.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\domain\\userr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\Gofive.API.csproj|solutionrelative:user.api\\models\\domain\\userr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\dto\\createuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\dto\\createuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\Gofive.API.csproj|d:\\internquest\\api\\user.api\\user.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\Gofive.API.csproj|solutionrelative:user.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\Gofive.API.csproj|d:\\internquest\\api\\user.api\\user.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\Gofive.API.csproj|solutionrelative:user.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\Gofive.API.csproj|d:\\internquest\\api\\user.api\\user.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CAAAE57-1111-5689-A094-DE83B2835F97}|User.API\\Gofive.API.csproj|solutionrelative:user.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 114,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateUserRequestDto.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\CreateUserRequestDto.cs",
+              "RelativeDocumentMoniker": "User.API\\Models\\DTO\\CreateUserRequestDto.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\CreateUserRequestDto.cs",
+              "RelativeToolTip": "User.API\\Models\\DTO\\CreateUserRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:57:15.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "User.API\\Models\\DTO\\UserDto.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\UserDto.cs",
+              "RelativeToolTip": "User.API\\Models\\DTO\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:57:07.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserPermission.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\UserPermission.cs",
+              "RelativeDocumentMoniker": "User.API\\Models\\Domain\\UserPermission.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\UserPermission.cs",
+              "RelativeToolTip": "User.API\\Models\\Domain\\UserPermission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:56:34.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\Role.cs",
+              "RelativeDocumentMoniker": "User.API\\Models\\Domain\\Role.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\Role.cs",
+              "RelativeToolTip": "User.API\\Models\\Domain\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:56:23.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\Permission.cs",
+              "RelativeDocumentMoniker": "User.API\\Models\\Domain\\Permission.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\Permission.cs",
+              "RelativeToolTip": "User.API\\Models\\Domain\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:56:13.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Userr.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\Userr.cs",
+              "RelativeDocumentMoniker": "User.API\\Models\\Domain\\Userr.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\Userr.cs",
+              "RelativeToolTip": "User.API\\Models\\Domain\\Userr.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:08:56.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "User.API\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "User.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAApwAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:33:49.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Program.cs",
+              "RelativeDocumentMoniker": "User.API\\Program.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Program.cs",
+              "RelativeToolTip": "User.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:08:36.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "User.API\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "User.API\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:03:20.833Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 163,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
