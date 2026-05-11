@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Left Navbar Example</title>
+    <style>
+        /* 1. Reset basic margins */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* 2. Styling the left navigation bar */
+        .sidebar {
+            height: 100vh; /* Full viewport height */
+            width: 220px;  /* Set the width of the navbar */
+            position: fixed; /* Fix it to the screen so it doesn't scroll away */
+            top: 0;
+            left: 0;
+            background-color: white; /* Dark blue-grey background */
+            padding-top: 20px;
+        }
+
+        /* 3. Styling the links inside the navbar */
+        .sidebar a {
+            padding: 15px 20px;
+            text-decoration: none; /* Remove underline */
+            font-size: 18px;
+            color: grey; /* Light text color */
+            display: block; /* Ensures the whole block is clickable, not just the text */
+            transition: 0.3s; /* Smooth transition for hover effect */
+        }
+
+        /* 4. Hover effect for links */
+        .sidebar a:hover {
+            background-color: #34495e; /* Slightly lighter color on hover */
+            color: #ffffff;
+        }
+        .sidebar a.active {
+            color:#3498db;            /* Highlighted text */
+            border-right: 5px solid #3498db; /* The blue front indicator */
+        }
+
+        /* 5. Main content area */
+        .main-content {
+            margin-left: 220px; /* Must match the width of the sidebar to prevent overlap */
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="sidebar">
+        <h1>YOURLOGO</h1>
+        <a routerLink="/dashboard/pad">Dashboard</a>
+        <a href="#about">Users</a>
+        <a href="#services">Documents</a>
+        <a href="#portfolio">Photos</a>
+        <a href="#contact">Hierachy</a>
+        <a href="#contact"></a>
+        <a href="#contact">Message</a>
+        <a href="#contact">Help</a>
+        <a href="#contact">Setting</a>
+    </nav>
+
+    <main class="main-content">
+        <h2>My Website</h2>
+        <p>This is the main content area. Because we added a left margin to this section that matches the width of the sidebar, the text won't hide behind the navigation menu.</p>
+        <p>Scroll down to see that the navbar stays fixed in place!</p>
+    </main>
+
+</body>
+</html>
