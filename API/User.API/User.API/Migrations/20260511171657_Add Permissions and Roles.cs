@@ -2,10 +2,12 @@
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace User.API.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigration : Migration
+    public partial class AddPermissionsandRoles : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -52,22 +54,43 @@ namespace User.API.Migrations
                 {
                     permissionId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     permissionName = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    userId = table.Column<string>(type: "nvarchar(450)", nullable: true)
+                    UserruserId = table.Column<string>(type: "nvarchar(450)", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Permissions", x => x.permissionId);
                     table.ForeignKey(
-                        name: "FK_Permissions_Users_userId",
-                        column: x => x.userId,
+                        name: "FK_Permissions_Users_UserruserId",
+                        column: x => x.UserruserId,
                         principalTable: "Users",
                         principalColumn: "userId");
                 });
 
-            migrationBuilder.CreateIndex(
-                name: "IX_Permissions_userId",
+            migrationBuilder.InsertData(
                 table: "Permissions",
-                column: "userId");
+                columns: new[] { "permissionId", "UserruserId", "permissionName" },
+                values: new object[,]
+                {
+                    { "1", null, "Manage Users" },
+                    { "2", null, "Manage Reports" },
+                    { "3", null, "Manage Invoices" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Roles",
+                columns: new[] { "roleId", "roleName" },
+                values: new object[,]
+                {
+                    { "1", "HR Admin" },
+                    { "2", "Super Admin" },
+                    { "3", "Admin" },
+                    { "4", "Employee" }
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Permissions_UserruserId",
+                table: "Permissions",
+                column: "UserruserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Users_roleId",

@@ -11,8 +11,8 @@ using User.API.Data;
 namespace User.API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260508201135_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20260511172748_Add UserPermission Relationship")]
+    partial class AddUserPermissionRelationship
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -29,18 +29,35 @@ namespace User.API.Migrations
                     b.Property<string>("permissionId")
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<string>("UserruserId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<string>("permissionName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("userId")
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("permissionId");
 
-                    b.HasIndex("userId");
+                    b.HasIndex("UserruserId");
 
                     b.ToTable("Permissions");
+
+                    b.HasData(
+                        new
+                        {
+                            permissionId = "1",
+                            permissionName = "Manage Users"
+                        },
+                        new
+                        {
+                            permissionId = "2",
+                            permissionName = "Manage Reports"
+                        },
+                        new
+                        {
+                            permissionId = "3",
+                            permissionName = "Manage Invoices"
+                        });
                 });
 
             modelBuilder.Entity("User.API.Models.Domain.Role", b =>
@@ -55,9 +72,57 @@ namespace User.API.Migrations
                     b.HasKey("roleId");
 
                     b.ToTable("Roles");
+
+                    b.HasData(
+                        new
+                        {
+                            roleId = "1",
+                            roleName = "HR Admin"
+                        },
+                        new
+                        {
+                            roleId = "2",
+                            roleName = "Super Admin"
+                        },
+                        new
+                        {
+                            roleId = "3",
+                            roleName = "Admin"
+                        },
+                        new
+                        {
+                            roleId = "4",
+                            roleName = "Employee"
+                        });
                 });
 
-            modelBuilder.Entity("User.API.Models.Domain.User", b =>
+            modelBuilder.Entity("User.API.Models.Domain.UserPermission", b =>
+                {
+                    b.Property<string>("userId")
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnOrder(0);
+
+                    b.Property<string>("permissionId")
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnOrder(1);
+
+                    b.Property<bool>("isDeletable")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("isReadable")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("isWritable")
+                        .HasColumnType("bit");
+
+                    b.HasKey("userId", "permissionId");
+
+                    b.HasIndex("permissionId");
+
+                    b.ToTable("UserPermissions");
+                });
+
+            modelBuilder.Entity("User.API.Models.Domain.Userr", b =>
                 {
                     b.Property<string>("userId")
                         .HasColumnType("nvarchar(450)");
@@ -99,12 +164,31 @@ namespace User.API.Migrations
 
             modelBuilder.Entity("User.API.Models.Domain.Permission", b =>
                 {
-                    b.HasOne("User.API.Models.Domain.User", null)
+                    b.HasOne("User.API.Models.Domain.Userr", null)
                         .WithMany("permissions")
-                        .HasForeignKey("userId");
+                        .HasForeignKey("UserruserId");
                 });
 
-            modelBuilder.Entity("User.API.Models.Domain.User", b =>
+            modelBuilder.Entity("User.API.Models.Domain.UserPermission", b =>
+                {
+                    b.HasOne("User.API.Models.Domain.Permission", "Permission")
+                        .WithMany()
+                        .HasForeignKey("permissionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("User.API.Models.Domain.Userr", "User")
+                        .WithMany()
+                        .HasForeignKey("userId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Permission");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("User.API.Models.Domain.Userr", b =>
                 {
                     b.HasOne("User.API.Models.Domain.Role", "role")
                         .WithMany()
@@ -115,7 +199,7 @@ namespace User.API.Migrations
                     b.Navigation("role");
                 });
 
-            modelBuilder.Entity("User.API.Models.Domain.User", b =>
+            modelBuilder.Entity("User.API.Models.Domain.Userr", b =>
                 {
                     b.Navigation("permissions");
                 });

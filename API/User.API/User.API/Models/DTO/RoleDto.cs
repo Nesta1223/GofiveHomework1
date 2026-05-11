@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace User.API.Models.Domain
+namespace User.API.Models.DTO
 {
-    public class Role
+    public class RoleDto
     {
         [Key]
         public string roleId { get; set; }

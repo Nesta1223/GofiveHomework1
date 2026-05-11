@@ -1,5 +1,5 @@
-using Gofive.API.Repositories.Implementation;
-using Gofive.API.Repositories.Interface;
+using User.API.Repositories.Implementation;
+using User.API.Repositories.Interface;
 using Microsoft.EntityFrameworkCore;
 using User.API.Data;
 
@@ -20,6 +20,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 });
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+builder.Services.AddScoped<IPermissionRepository, PermissionRepository>();
+
+builder.Services.AddScoped<IRoleRepository, RoleRepository>();
 
 var app = builder.Build();
 

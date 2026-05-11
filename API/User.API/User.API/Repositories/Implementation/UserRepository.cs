@@ -1,9 +1,9 @@
-﻿using Gofive.API.Repositories.Interface;
+﻿using User.API.Repositories.Interface;
 using Microsoft.EntityFrameworkCore;
 using User.API.Data;
 using User.API.Models.Domain;
 
-namespace Gofive.API.Repositories.Implementation
+namespace User.API.Repositories.Implementation
 {
     public class UserRepository : IUserRepository
     {

@@ -1,9 +1,10 @@
-﻿using Gofive.API.Models.DTO;
-using Gofive.API.Repositories.Interface;
+﻿using User.API.Models.DTO;
+using User.API.Repositories.Interface;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using User.API.Models.Domain;
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
+using Gofive.API.Models.DTO;
 
 namespace Gofive.API.Controllers
 {
@@ -17,7 +18,8 @@ namespace Gofive.API.Controllers
         {
             this.userRepository = userRepository;
         }
-        [HttpPost]
+
+        [HttpPost]//Incomplete
         public async Task<IActionResult> CreateUser(CreateUserRequestDto createUserRequestDto)
         {
             var user = new Userr

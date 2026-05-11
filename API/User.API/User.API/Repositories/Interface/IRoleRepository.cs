@@ -2,8 +2,8 @@
 
 namespace User.API.Repositories.Interface
 {
-    public interface IUserRepository
+    public interface IRoleRepository
     {
-        Task<Userr> CreateAsync(Userr userr);
+        Task<IEnumerable<Role>> GetAllAsync();
     }
 }

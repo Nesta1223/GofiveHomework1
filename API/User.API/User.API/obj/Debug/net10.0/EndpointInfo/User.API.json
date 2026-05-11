@@ -5,6 +5,30 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Permission": {
+      "get": {
+        "tags": [
+          "Permission"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Role": {
+      "get": {
+        "tags": [
+          "Role"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Users": {
       "post": {
         "tags": [
@@ -83,7 +107,7 @@
         "properties": {
           "userId": {
             "type": "string",
-            "format": "uuid"
+            "nullable": true
           },
           "firstName": {
             "type": "string",
@@ -123,6 +147,34 @@
         },
         "additionalProperties": false
       },
+      "Permission": {
+        "type": "object",
+        "properties": {
+          "permissionId": {
+            "type": "string",
+            "nullable": true
+          },
+          "permissionName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Role": {
+        "type": "object",
+        "properties": {
+          "roleId": {
+            "type": "string",
+            "nullable": true
+          },
+          "roleName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "UserPermission": {
         "type": "object",
         "properties": {
@@ -142,6 +194,56 @@
           },
           "isDeletable": {
             "type": "boolean"
+          },
+          "user": {
+            "$ref": "#/components/schemas/Userr"
+          },
+          "permission": {
+            "$ref": "#/components/schemas/Permission"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Userr": {
+        "type": "object",
+        "properties": {
+          "userId": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "phone": {
+            "type": "string",
+            "nullable": true
+          },
+          "role": {
+            "$ref": "#/components/schemas/Role"
+          },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "permissions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UserPermission"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -172,6 +274,12 @@
     }
   },
   "tags": [
+    {
+      "name": "Permission"
+    },
+    {
+      "name": "Role"
+    },
     {
       "name": "Users"
     },

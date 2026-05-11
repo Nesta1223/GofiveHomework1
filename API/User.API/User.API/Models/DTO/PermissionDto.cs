@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace User.API.Models.Domain
+namespace User.API.Models.DTO
 {
-    public class Permission
+    public class PermissionDto
     {
         [Key]
         public string permissionId { get; set; }
