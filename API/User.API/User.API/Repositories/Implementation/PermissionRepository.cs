@@ -17,5 +17,10 @@ namespace User.API.Repositories.Implementation
         {
             return await dbContext.Permissions.ToListAsync();
         }
+
+        public async Task<Permission> GetById(string id)
+        {
+            return await dbContext.Permissions.FirstOrDefaultAsync(x => x.permissionId == id);
+        }
     }
 }

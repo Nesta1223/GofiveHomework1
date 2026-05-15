@@ -18,5 +18,11 @@ namespace User.API.Repositories.Implementation
         {
             return await applicationDbContext.Roles.ToListAsync();
         }
+        public async Task<Role> GetById(string id)
+        {
+            return await applicationDbContext.Roles.FirstOrDefaultAsync(x => x.roleId == id);
+        }
+
+     
     }
 }

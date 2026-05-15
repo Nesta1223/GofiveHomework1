@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using User.API.Data;
 
@@ -10,9 +11,11 @@ using User.API.Data;
 namespace User.API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260515111539_fix domain")]
+    partial class fixdomain
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -90,11 +93,13 @@ namespace User.API.Migrations
 
             modelBuilder.Entity("User.API.Models.Domain.UserPermission", b =>
                 {
-                    b.Property<string>("permissionId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<string>("userId")
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnOrder(0);
 
-                    b.Property<string>("UserruserId")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<string>("permissionId")
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnOrder(1);
 
                     b.Property<bool>("isDeletable")
                         .HasColumnType("bit");
@@ -105,9 +110,9 @@ namespace User.API.Migrations
                     b.Property<bool>("isWritable")
                         .HasColumnType("bit");
 
-                    b.HasKey("permissionId");
+                    b.HasKey("userId", "permissionId");
 
-                    b.HasIndex("UserruserId");
+                    b.HasIndex("permissionId");
 
                     b.ToTable("UserPermissions");
                 });
@@ -154,9 +159,21 @@ namespace User.API.Migrations
 
             modelBuilder.Entity("User.API.Models.Domain.UserPermission", b =>
                 {
-                    b.HasOne("User.API.Models.Domain.Userr", null)
+                    b.HasOne("User.API.Models.Domain.Permission", "Permission")
+                        .WithMany()
+                        .HasForeignKey("permissionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("User.API.Models.Domain.Userr", "User")
                         .WithMany("UserPermissions")
-                        .HasForeignKey("UserruserId");
+                        .HasForeignKey("userId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Permission");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("User.API.Models.Domain.Userr", b =>

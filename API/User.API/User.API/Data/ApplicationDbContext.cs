@@ -31,7 +31,7 @@ namespace User.API.Data
                 new Permission { permissionId = "3", permissionName = "Manage Invoices" }
             );
 
-            modelBuilder.Entity<UserPermission>().HasKey(up => new { up.userId, up.permissionId });
+            modelBuilder.Entity<UserPermission>().HasKey(up => new {  up.permissionId });
     
         }
     }

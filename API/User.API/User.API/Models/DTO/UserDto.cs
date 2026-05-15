@@ -13,7 +13,6 @@ namespace Gofive.API.Models.DTO
         public string phone { get; set; }
         public Role role { get; set; }
         public string username { get; set; }
-        public string password { get; set; }
         public List<Permission> permissions { get; set; } = new();
     }
 }

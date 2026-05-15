@@ -59,45 +59,6 @@
           }
         }
       }
-    },
-    "/WeatherForecast": {
-      "get": {
-        "tags": [
-          "WeatherForecast"
-        ],
-        "operationId": "GetWeatherForecast",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
     }
   },
   "components": {
@@ -147,41 +108,9 @@
         },
         "additionalProperties": false
       },
-      "Permission": {
-        "type": "object",
-        "properties": {
-          "permissionId": {
-            "type": "string",
-            "nullable": true
-          },
-          "permissionName": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Role": {
-        "type": "object",
-        "properties": {
-          "roleId": {
-            "type": "string",
-            "nullable": true
-          },
-          "roleName": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "UserPermission": {
         "type": "object",
         "properties": {
-          "userId": {
-            "type": "string",
-            "nullable": true
-          },
           "permissionId": {
             "type": "string",
             "nullable": true
@@ -194,79 +123,6 @@
           },
           "isDeletable": {
             "type": "boolean"
-          },
-          "user": {
-            "$ref": "#/components/schemas/Userr"
-          },
-          "permission": {
-            "$ref": "#/components/schemas/Permission"
-          }
-        },
-        "additionalProperties": false
-      },
-      "Userr": {
-        "type": "object",
-        "properties": {
-          "userId": {
-            "type": "string",
-            "nullable": true
-          },
-          "firstName": {
-            "type": "string",
-            "nullable": true
-          },
-          "lastName": {
-            "type": "string",
-            "nullable": true
-          },
-          "email": {
-            "type": "string",
-            "nullable": true
-          },
-          "phone": {
-            "type": "string",
-            "nullable": true
-          },
-          "role": {
-            "$ref": "#/components/schemas/Role"
-          },
-          "username": {
-            "type": "string",
-            "nullable": true
-          },
-          "password": {
-            "type": "string",
-            "nullable": true
-          },
-          "permissions": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/UserPermission"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "WeatherForecast": {
-        "type": "object",
-        "properties": {
-          "date": {
-            "type": "string",
-            "format": "date"
-          },
-          "temperatureC": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          },
-          "summary": {
-            "type": "string",
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -282,9 +138,6 @@
     },
     {
       "name": "Users"
-    },
-    {
-      "name": "WeatherForecast"
     }
   ]
 }

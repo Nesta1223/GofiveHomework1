@@ -7,5 +7,7 @@ namespace User.API.Models.Domain
         [Key]
         public string permissionId { get; set; }
         public string permissionName { get; set; }
+
+        //public ICollection<UserPermission> UserPermissions { get; set; }
     }
 }

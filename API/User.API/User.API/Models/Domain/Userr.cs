@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace User.API.Models.Domain
 {
@@ -13,7 +14,8 @@ namespace User.API.Models.Domain
         public Role role { get; set; }
         public string username { get; set; }
         public string password { get; set; }
-        public List<UserPermission> permissions { get; set; } = new();
+        public List<UserPermission> UserPermissions { get; set; }
+  
 
     }
 }
