@@ -25,23 +25,37 @@ namespace User.API.Repositories.Implementation
         }
 
 
-        public Task<IEnumerable<Userr>> GetAllAsync()
+        public async Task<IEnumerable<Userr>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            return await dbContext.Users.Include(u =>u.role).Include(u => u.UserPermissions).ToListAsync();
         }
 
         public async Task<Userr?> GetById(string id)
         {
-            return await dbContext.Users.FirstOrDefaultAsync(x => x.userId == id);
+            return await dbContext.Users.Include(u => u.role).Include(u => u.UserPermissions).FirstOrDefaultAsync(x => x.userId == id);
         }
 
-        public Task<Userr?> UpdateAsync(Userr userr)
+        public async Task<Userr?> UpdateAsync(Userr userr)
         {
-            throw new NotImplementedException();
+            var existingUser = await dbContext.Users.Include(u => u.role).Include(u => u.UserPermissions).FirstOrDefaultAsync(x => x.userId == userr.userId);
+            if (existingUser != null)
+            {
+                dbContext.Entry(existingUser).CurrentValues.SetValues(userr);
+                await dbContext.SaveChangesAsync();
+                return userr;
+            }
+            return null;
         }
-        public Task<Userr?> DeleteAsync(string id)
+        public async Task<bool> DeleteAsync(string id)
         {
-            throw new NotImplementedException();
+            var existUser = await dbContext.Users.Include(u => u.role).Include(u =>u.UserPermissions).FirstOrDefaultAsync(x => x.userId == id);
+            if (existUser != null)
+            {
+                dbContext.Remove(existUser);
+                await dbContext.SaveChangesAsync();
+                return true;
+            }
+            return false;
         }
     }
 }

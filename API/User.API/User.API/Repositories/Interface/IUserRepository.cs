@@ -9,6 +9,6 @@ namespace User.API.Repositories.Interface
         Task<IEnumerable<Userr>> GetAllAsync();
         Task<Userr?> GetById(string id);
         Task<Userr?> UpdateAsync(Userr userr);
-        Task<Userr?> DeleteAsync(string id);
+        Task<bool> DeleteAsync(string id);
     }
 }

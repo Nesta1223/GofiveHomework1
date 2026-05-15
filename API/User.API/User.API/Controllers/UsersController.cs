@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Mvc;
 using User.API.Models.Domain;
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
 using Gofive.API.Models.DTO;
+using Microsoft.AspNetCore.Mvc.ActionConstraints;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 
 namespace Gofive.API.Controllers
 {
@@ -23,6 +25,8 @@ namespace Gofive.API.Controllers
             this.roleRepository = roleRepository;
         }
 
+
+        //Post api
         [HttpPost]//Incomplete
         public async Task<IActionResult> CreateUser(CreateUserRequestDto createUserRequestDto)
 
@@ -125,5 +129,157 @@ namespace Gofive.API.Controllers
             return Ok(response);
 
         }
+        //Get all api
+        [HttpGet]
+        public async Task<IActionResult> GetAllUsers()//add parameter later
+        {
+            var users = await userRepository.GetAllAsync();
+            var response = new List<UserDto>();
+            foreach (var u in users)
+            {
+                var dto = new UserDto
+                {
+                    userId = u.userId,
+                    firstName = u.firstName,
+                    lastName = u.lastName,
+                    phone = u.phone,
+                    email = u.email,
+                    username = u.username,
+                    role = u.role,
+                    permissions = new List<Permission>()
+
+                };
+                foreach (var userPermission in u.UserPermissions)
+                {
+                    var permission = await permissionRepository.GetById(userPermission.permissionId);
+                    dto.permissions.Add(permission);
+                }
+                response.Add(dto);
+            }
+            return Ok(response);
+        }
+        //Get by id api
+        [HttpGet]
+        [Route("{id}")]
+        public async Task<IActionResult> GetUserById([FromRoute] string id)
+        {
+            var existUser = await userRepository.GetById(id);
+            if (existUser == null)
+            {
+                return NotFound();
+            }
+            var response = new UserDto
+            {
+                userId = id,
+                firstName = existUser.firstName,
+                lastName = existUser.lastName,
+                phone = existUser.phone,
+                email = existUser.email,
+                username = existUser.username,
+                role = existUser.role,
+                permissions = new List<Permission>()
+
+            };
+            foreach (var userPermission in existUser.UserPermissions)
+            {
+                var permission = await permissionRepository.GetById(userPermission.permissionId);
+                response.permissions.Add(permission);
+            }
+            return Ok(response);
+        }
+        //put api
+        [HttpPut]
+        [Route("{id}")]
+        public async Task<IActionResult> EditUser([FromRoute] string id , UpdateUserRequestDto updateUserRequestDto)
+        {
+            //validate roleId
+            var r = await roleRepository.GetById(updateUserRequestDto.roleId);
+            if (r == null)
+            {
+                return NotFound(new
+                {
+                    status = new
+                    {
+                        code = "404",
+                        description = "Role not found"
+                    },
+                    data = (object)null
+                });
+            }
+            var user = new Userr
+            {
+                userId = id,
+                firstName = updateUserRequestDto.firstName,
+                lastName = updateUserRequestDto.lastName,
+                email = updateUserRequestDto.email,
+                password = updateUserRequestDto.password,
+                phone = updateUserRequestDto.phone,
+                role = r,
+                username = updateUserRequestDto.username,
+                UserPermissions = new List<UserPermission>()
+            };
+            //validate every permissionId
+            foreach (var permission in updateUserRequestDto.permissions)
+            {
+                var p = await permissionRepository.GetById(permission.permissionId);
+                if (p == null)
+                {
+                    return NotFound(new
+                    {
+                        status = new
+                        {
+                            code = "404",
+                            description = "One of the permission not found"
+                        },
+                        data = (object)null
+                    });
+                }
+                user.UserPermissions.Add(permission);
+
+
+            }
+            user =await userRepository.UpdateAsync(user);
+
+            var response = new UserDto
+            {
+                userId = id,
+                firstName = user.firstName,
+                lastName = user.lastName,
+                email = user.email,
+                phone = user.phone,
+                role = user.role,
+                username = user.username,
+                permissions = new List<Permission>()
+
+            };
+            foreach (var userPermission in user.UserPermissions)
+            {
+                var permission = await permissionRepository.GetById(userPermission.permissionId);
+                response.permissions.Add(permission);
+            }
+            return Ok(response);
+        }
+
+        //Delete API
+        [HttpDelete]
+        [Route("{id}")]
+        public async Task<IActionResult> DeleteUser([FromRoute] string id)
+        {
+            bool success = await userRepository.DeleteAsync(id);
+            var response = new DeleteUserResponseDto();
+            if (success)
+            {
+                response.result = true;
+                response.message = "Deletion completed";
+                return Ok(response);
+            }
+            else
+            {
+                response.result = false;
+                response.message = "Deletion failed";
+                return NotFound();
+            }
+        }
+
     }
 }
