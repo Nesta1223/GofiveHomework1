@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\InternQuest\\API\\User.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\repositories\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\repositories\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\domain\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\domain\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\repositories\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\repositories\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\dto\\deleteuserresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\dto\\deleteuserresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\dto\\getalluserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\dto\\getalluserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\dto\\updateuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +39,32 @@
       "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\dto\\createuserrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\repositories\\interface\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\repositories\\interface\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\domain\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\domain\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\repositories\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\repositories\\implementation\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\repositories\\implementation\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\domain\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\domain\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\domain\\userr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\domain\\userr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\domain\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\domain\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\repositories\\implementation\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\repositories\\implementation\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\migrations\\20260515115442_fix domain4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\controllers\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\controllers\\permissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\domain\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\domain\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\dto\\permissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,28 +87,12 @@
       "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\domain\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\domain\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\repositories\\implementation\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\repositories\\implementation\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\repositories\\interface\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\repositories\\interface\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\models\\dto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\models\\dto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|solutionrelative:user.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8856A0DA-D97A-C770-843F-71486383EDD9}|User.API\\User.API.csproj|d:\\internquest\\api\\user.api\\user.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -114,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 114,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -125,49 +129,6 @@
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DeleteUserResponseDto.cs",
-              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\DeleteUserResponseDto.cs",
-              "RelativeDocumentMoniker": "User.API\\Models\\DTO\\DeleteUserResponseDto.cs",
-              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\DeleteUserResponseDto.cs",
-              "RelativeToolTip": "User.API\\Models\\DTO\\DeleteUserResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T14:26:12.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Implementation\\UserRepository.cs",
-              "RelativeDocumentMoniker": "User.API\\Repositories\\Implementation\\UserRepository.cs",
-              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Implementation\\UserRepository.cs",
-              "RelativeToolTip": "User.API\\Repositories\\Implementation\\UserRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwDgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T17:52:17.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Interface\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "User.API\\Repositories\\Interface\\IUserRepository.cs",
-              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Interface\\IUserRepository.cs",
-              "RelativeToolTip": "User.API\\Repositories\\Interface\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T17:45:00.476Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "UsersController.cs",
@@ -175,7 +136,7 @@
               "RelativeDocumentMoniker": "User.API\\Controllers\\UsersController.cs",
               "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Controllers\\UsersController.cs",
               "RelativeToolTip": "User.API\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcBAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAYwA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T17:41:26.418Z",
               "EditorCaption": ""
@@ -183,6 +144,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Implementation\\UserRepository.cs",
+              "RelativeDocumentMoniker": "User.API\\Repositories\\Implementation\\UserRepository.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Implementation\\UserRepository.cs",
+              "RelativeToolTip": "User.API\\Repositories\\Implementation\\UserRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA/wDMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T17:52:17.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "UpdateUserRequestDto.cs",
               "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\UpdateUserRequestDto.cs",
               "RelativeDocumentMoniker": "User.API\\Models\\DTO\\UpdateUserRequestDto.cs",
@@ -190,12 +164,24 @@
               "RelativeToolTip": "User.API\\Models\\DTO\\UpdateUserRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T13:15:48.118Z",
+              "WhenOpened": "2026-05-15T13:15:48.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Program.cs",
+              "RelativeDocumentMoniker": "User.API\\Program.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Program.cs",
+              "RelativeToolTip": "User.API\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T17:50:04.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "CreateUserRequestDto.cs",
               "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\CreateUserRequestDto.cs",
               "RelativeDocumentMoniker": "User.API\\Models\\DTO\\CreateUserRequestDto.cs",
@@ -203,12 +189,24 @@
               "RelativeToolTip": "User.API\\Models\\DTO\\CreateUserRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T17:48:10.252Z",
+              "WhenOpened": "2026-05-11T17:48:10.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\Role.cs",
+              "RelativeDocumentMoniker": "User.API\\Models\\Domain\\Role.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\Role.cs",
+              "RelativeToolTip": "User.API\\Models\\Domain\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T17:48:59.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "UserDto.cs",
               "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\UserDto.cs",
               "RelativeDocumentMoniker": "User.API\\Models\\DTO\\UserDto.cs",
@@ -220,80 +218,68 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserPermission.cs",
-              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\UserPermission.cs",
-              "RelativeDocumentMoniker": "User.API\\Models\\Domain\\UserPermission.cs",
-              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\UserPermission.cs",
-              "RelativeToolTip": "User.API\\Models\\Domain\\UserPermission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "DeleteUserResponseDto.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\DeleteUserResponseDto.cs",
+              "RelativeDocumentMoniker": "User.API\\Models\\DTO\\DeleteUserResponseDto.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\DeleteUserResponseDto.cs",
+              "RelativeToolTip": "User.API\\Models\\DTO\\DeleteUserResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T18:05:25.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-15T14:26:12.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetAllUserRequestDto.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\GetAllUserRequestDto.cs",
+              "RelativeDocumentMoniker": "User.API\\Models\\DTO\\GetAllUserRequestDto.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\GetAllUserRequestDto.cs",
+              "RelativeToolTip": "User.API\\Models\\DTO\\GetAllUserRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T10:20:18.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "User.API\\Repositories\\Interface\\IUserRepository.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "User.API\\Repositories\\Interface\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T17:45:00.476Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Userr.cs",
-              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\Userr.cs",
-              "RelativeDocumentMoniker": "User.API\\Models\\Domain\\Userr.cs",
-              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\Userr.cs",
-              "RelativeToolTip": "User.API\\Models\\Domain\\Userr.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABCAAAAAAAAAA==",
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Interface\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "User.API\\Repositories\\Interface\\IRoleRepository.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Interface\\IRoleRepository.cs",
+              "RelativeToolTip": "User.API\\Repositories\\Interface\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T18:05:26.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T17:44:34.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "RoleRepository.cs",
               "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Implementation\\RoleRepository.cs",
               "RelativeDocumentMoniker": "User.API\\Repositories\\Implementation\\RoleRepository.cs",
               "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Implementation\\RoleRepository.cs",
               "RelativeToolTip": "User.API\\Repositories\\Implementation\\RoleRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T17:51:01.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20260515115442_fix domain4.cs",
-              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Migrations\\20260515115442_fix domain4.cs",
-              "RelativeDocumentMoniker": "User.API\\Migrations\\20260515115442_fix domain4.cs",
-              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Migrations\\20260515115442_fix domain4.cs",
-              "RelativeToolTip": "User.API\\Migrations\\20260515115442_fix domain4.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T11:54:42.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PermissionController.cs",
-              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Controllers\\PermissionController.cs",
-              "RelativeDocumentMoniker": "User.API\\Controllers\\PermissionController.cs",
-              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Controllers\\PermissionController.cs",
-              "RelativeToolTip": "User.API\\Controllers\\PermissionController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T17:55:13.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PermissionDto.cs",
-              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\PermissionDto.cs",
-              "RelativeDocumentMoniker": "User.API\\Models\\DTO\\PermissionDto.cs",
-              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\PermissionDto.cs",
-              "RelativeToolTip": "User.API\\Models\\DTO\\PermissionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T17:47:35.419Z"
+              "WhenOpened": "2026-05-11T17:51:01.052Z"
             },
             {
               "$type": "Document",
@@ -309,67 +295,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Userr.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\Userr.cs",
+              "RelativeDocumentMoniker": "User.API\\Models\\Domain\\Userr.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\Userr.cs",
+              "RelativeToolTip": "User.API\\Models\\Domain\\Userr.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T18:05:26.673Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "IPermissionRepository.cs",
-              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Interface\\IPermissionRepository.cs",
-              "RelativeDocumentMoniker": "User.API\\Repositories\\Interface\\IPermissionRepository.cs",
-              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Interface\\IPermissionRepository.cs",
-              "RelativeToolTip": "User.API\\Repositories\\Interface\\IPermissionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "UserPermission.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\UserPermission.cs",
+              "RelativeDocumentMoniker": "User.API\\Models\\Domain\\UserPermission.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\UserPermission.cs",
+              "RelativeToolTip": "User.API\\Models\\Domain\\UserPermission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T17:43:32.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "20260515113555_fix domain3.cs",
-              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Migrations\\20260515113555_fix domain3.cs",
-              "RelativeDocumentMoniker": "User.API\\Migrations\\20260515113555_fix domain3.cs",
-              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Migrations\\20260515113555_fix domain3.cs",
-              "RelativeToolTip": "User.API\\Migrations\\20260515113555_fix domain3.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T11:35:55.748Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\Role.cs",
-              "RelativeDocumentMoniker": "User.API\\Models\\Domain\\Role.cs",
-              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\Domain\\Role.cs",
-              "RelativeToolTip": "User.API\\Models\\Domain\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T17:48:59.492Z"
+              "WhenOpened": "2026-05-11T18:05:25.402Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "User.API\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "User.API\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wCEAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T17:49:55.68Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IRoleRepository.cs",
-              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Interface\\IRoleRepository.cs",
-              "RelativeDocumentMoniker": "User.API\\Repositories\\Interface\\IRoleRepository.cs",
-              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Interface\\IRoleRepository.cs",
-              "RelativeToolTip": "User.API\\Repositories\\Interface\\IRoleRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T17:44:34.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "PermissionRepository.cs",
               "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Implementation\\PermissionRepository.cs",
               "RelativeDocumentMoniker": "User.API\\Repositories\\Implementation\\PermissionRepository.cs",
@@ -381,7 +331,79 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20260515115442_fix domain4.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Migrations\\20260515115442_fix domain4.cs",
+              "RelativeDocumentMoniker": "User.API\\Migrations\\20260515115442_fix domain4.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Migrations\\20260515115442_fix domain4.cs",
+              "RelativeToolTip": "User.API\\Migrations\\20260515115442_fix domain4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T11:54:42.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PermissionController.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Controllers\\PermissionController.cs",
+              "RelativeDocumentMoniker": "User.API\\Controllers\\PermissionController.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Controllers\\PermissionController.cs",
+              "RelativeToolTip": "User.API\\Controllers\\PermissionController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T17:55:13.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PermissionDto.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\PermissionDto.cs",
+              "RelativeDocumentMoniker": "User.API\\Models\\DTO\\PermissionDto.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\PermissionDto.cs",
+              "RelativeToolTip": "User.API\\Models\\DTO\\PermissionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T17:47:35.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IPermissionRepository.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Interface\\IPermissionRepository.cs",
+              "RelativeDocumentMoniker": "User.API\\Repositories\\Interface\\IPermissionRepository.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Repositories\\Interface\\IPermissionRepository.cs",
+              "RelativeToolTip": "User.API\\Repositories\\Interface\\IPermissionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T17:43:32.616Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "20260515113555_fix domain3.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Migrations\\20260515113555_fix domain3.cs",
+              "RelativeDocumentMoniker": "User.API\\Migrations\\20260515113555_fix domain3.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Migrations\\20260515113555_fix domain3.cs",
+              "RelativeToolTip": "User.API\\Migrations\\20260515113555_fix domain3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T11:35:55.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "User.API\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "User.API\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wCEAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T17:49:55.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "20260515111859_fix domain2.cs",
               "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Migrations\\20260515111859_fix domain2.cs",
               "RelativeDocumentMoniker": "User.API\\Migrations\\20260515111859_fix domain2.cs",
@@ -393,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "20260515111539_fix domain.cs",
               "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Migrations\\20260515111539_fix domain.cs",
               "RelativeDocumentMoniker": "User.API\\Migrations\\20260515111539_fix domain.cs",
@@ -405,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "RoleDto.cs",
               "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Models\\DTO\\RoleDto.cs",
               "RelativeDocumentMoniker": "User.API\\Models\\DTO\\RoleDto.cs",
@@ -417,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "RoleController.cs",
               "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Controllers\\RoleController.cs",
               "RelativeDocumentMoniker": "User.API\\Controllers\\RoleController.cs",
@@ -429,19 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\Program.cs",
-              "RelativeDocumentMoniker": "User.API\\Program.cs",
-              "ToolTip": "D:\\InternQuest\\API\\User.API\\User.API\\Program.cs",
-              "RelativeToolTip": "User.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T17:50:04.067Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\InternQuest\\API\\User.API\\User.API\\appsettings.json",
               "RelativeDocumentMoniker": "User.API\\appsettings.json",

@@ -35,7 +35,7 @@ namespace Gofive.API.Controllers
             var u = await userRepository.GetById(createUserRequestDto.userId);
             if (u != null)
             {
-                return NotFound(new
+                return BadRequest(new
                 {
                     status = new
                     {
@@ -131,9 +131,9 @@ namespace Gofive.API.Controllers
         }
         //Get all api
         [HttpGet]
-        public async Task<IActionResult> GetAllUsers()//add parameter later
+        public async Task<IActionResult> GetAllUsers([FromQuery] GetAllUserRequestDto requestDto)//add parameter later
         {
-            var users = await userRepository.GetAllAsync();
+            var users = await userRepository.GetAllAsync(requestDto);
             var response = new List<UserDto>();
             foreach (var u in users)
             {
@@ -187,11 +187,25 @@ namespace Gofive.API.Controllers
             }
             return Ok(response);
         }
-        //put api
+        //Put api
         [HttpPut]
         [Route("{id}")]
         public async Task<IActionResult> EditUser([FromRoute] string id , UpdateUserRequestDto updateUserRequestDto)
         {
+            //validate userId
+            var u = await userRepository.GetById(id);
+            if (u == null)
+            {
+                return NotFound(new
+                {
+                    status = new
+                    {
+                        code = "404",
+                        description = "User not found"
+                    },
+                    data = (object)null
+                });
+            }
             //validate roleId
             var r = await roleRepository.GetById(updateUserRequestDto.roleId);
             if (r == null)

@@ -1,0 +1,84 @@
+/* Dashboardpad styles */
+.container{
+
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0 px;
+    background-color: #f5f5f5;
+    .first{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        // padding-bottom: 20px;
+        // background: lightblue;
+        .profile{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+        // background: lightgreen;
+        .head{
+            color : #3498db;
+            // font: ;
+        }
+        .bottom{
+            display: flex;
+            flex-direction: row;
+            gap:20px;
+            .search-box{
+                position: relative;
+                display: flex;
+                align-items: center;
+                border-radius: 10px;
+                background-color: white;
+                .search-icon{
+                    position: absolute;
+                    left: 12px;
+                    pointer-events: none;
+                }
+                .search{
+                    width: 600px;
+                    height: 40px;
+                    border-radius: 20px;
+                    border:  #e0e0e0;
+                    padding-left: 36px;
+                    outline: none;
+                    font-size: 14px;
+                    color: #555;
+                    &::placeholder{
+                        color: #aaa;
+                    }
+                }
+            }
+            .add{
+                width: 120px;
+                background-color: #3498db;
+                color: white;
+                height: 40px;
+                border-color: #3498db;
+                border-radius: 5px;
+            }
+            .sort{
+                height: 40px;
+                width: 100px;
+                align-self: center;
+                justify-content: center;
+                padding: 8px;
+                background-color: #f5f5f5;
+            }
+            .save{
+                height: 40px;
+                width: 150px;
+                background-color: #f5f5f5;
+                border: none;
+            }
+        }
+    }
+}
+
+

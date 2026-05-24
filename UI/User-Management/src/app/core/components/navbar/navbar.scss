@@ -1,0 +1,35 @@
+.sidebar {
+    height: 100vh;
+    width: 220px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    padding: 20px;
+    font-family: 'Inter' , sans-serif;
+}
+
+.sidebar h1{
+    font-size: 24px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+}
+
+.sidebar a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: grey;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color:#3498db;
+    color: #ffffff;
+}
+
+.sidebar a.active {
+    color: #3498db;
+    border-right: 5px solid #3498db;
+}

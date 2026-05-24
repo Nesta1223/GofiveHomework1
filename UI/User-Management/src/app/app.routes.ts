@@ -1,11 +1,10 @@
 import { Routes } from '@angular/router';
-import { Dashboardpad } from './features/dashboard/dashboardpad/dashboardpad';
+import { Dashboardpad } from './features/dashboard/dashboardpad/dashboardpad.component';
 
 export const routes: Routes = [
     {
-        path: 'dashboard',
-        children: [
-            { path: 'pad', component: Dashboardpad }
-        ]
+        path: 'dashboard/pad',
+        component: Dashboardpad 
+        
     }
 ];

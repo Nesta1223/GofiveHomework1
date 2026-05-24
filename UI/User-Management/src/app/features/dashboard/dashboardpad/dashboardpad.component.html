@@ -1,0 +1,70 @@
+<div class="container">
+    <div class="first">
+        <div class="welcome">
+            <h2>Hello, Nesta</h2>
+            <div>Have a nice day</div>
+        </div>
+        <div class="profile">
+            <div>Bell </div>
+            <div>  | Profile</div>
+        </div>
+    </div>
+
+    <div class="second">
+        <h2 class="head">User Dashboard</h2>
+        <div class="bottom">
+            <div class="search-box">
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#aaa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                </svg>
+                <input class="search" placeholder="Search" />
+            </div>
+            <button class="add">Add user +</button>
+            <div class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle sort" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sort By
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item">Name</a></li>
+                    <li><a class="dropdown-item">Email</a></li>
+                    <li><a class="dropdown-item">Role</a></li>
+                </ul>
+            </div>
+            <button class="save">Saved search</button>
+            <!-- <button>filter</button> -->
+        </div>
+    </div>
+
+    <div class="third">
+        @if (isloading()) {
+            <p>Loading</p>
+        }
+        @else if (iserror()) {
+            <p>error!</p>
+        }
+        @else {
+            <table class="table table-bordered mt-3">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Role</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                @for (user of value(); track user.userId) {
+                    <tr>
+                        <td>{{user.firstName + " " + user.lastName}}</td>
+                        <td>{{user.role.roleName}}</td>
+                        <td>
+                            <button>Button</button>
+                        </td>
+                        <td>
+                            <!-- <a class="btn btn-light" [routerLink]="['/admin/categories/edit',category.id]" >Edit</a> -->
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        }
+    </div>
+</div>
