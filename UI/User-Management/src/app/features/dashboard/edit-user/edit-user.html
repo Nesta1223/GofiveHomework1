@@ -1,0 +1,16 @@
+<div class="container">
+    <h3>Edit User</h3>
+    <form [formGroup]="editUserFormGroup" (ngSubmit)="onSubmit()">
+        <input placeholder="User ID" class="form-control" formControlName="userId" readonly/>
+        <div class="name">
+            <input placeholder="First Name" class="form-control" formControlName="firstName"/>
+            <input placeholder="Last Name" class="form-control" formControlName="lastName"/>
+        </div>
+        <input placeholder="Email" class="form-control" formControlName="email">
+        <input placeholder="Phone" class="form-control" formControlName="phone">
+        <input placeholder="Role Id" class="form-control" formControlName="roleId">
+        <input placeholder="Username" class="form-control" formControlName="username">
+        <input placeholder="Password (leave blank to keep)" class="form-control" formControlName="password" type="password">
+        <button type="submit" class="btn btn-primary">Save</button>
+    </form>
+</div>

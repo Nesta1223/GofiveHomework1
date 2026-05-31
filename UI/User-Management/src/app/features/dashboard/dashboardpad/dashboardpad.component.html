@@ -19,7 +19,7 @@
                 </svg>
                 <input class="search" placeholder="Search" />
             </div>
-            <button class="add">Add user +</button>
+            <button class="add" (click)="showAddUser.set(true)">Add user +</button>
             <div class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle sort" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Sort By
@@ -56,7 +56,8 @@
                         <td>{{user.firstName + " " + user.lastName}}</td>
                         <td>{{user.role.roleName}}</td>
                         <td>
-                            <button>Button</button>
+                            <button (click)="onEditUser(user)">Edit</button>
+                            <button (click)="onDeleteUser(user.userId)">Delete</button>
                         </td>
                         <td>
                             <!-- <a class="btn btn-light" [routerLink]="['/admin/categories/edit',category.id]" >Edit</a> -->
@@ -68,3 +69,19 @@
         }
     </div>
 </div>
+
+@if (showAddUser()) {
+  <div class="modal-backdrop" (click)="showAddUser.set(false)"></div>
+  <div class="modal-panel">
+    <button class="modal-close" (click)="showAddUser.set(false)">✕</button>
+    <app-add-user (addUserSuccess)="onAddUserSuccess()" />
+  </div>
+}
+
+@if (showEditUser() && selectedUser()) {
+  <div class="modal-backdrop" (click)="showEditUser.set(false)"></div>
+  <div class="modal-panel">
+    <button class="modal-close" (click)="showEditUser.set(false)">✕</button>
+    <app-edit-user [user]="selectedUser()!" (editUserSuccess)="onEditUserSuccess()" />
+  </div>
+}

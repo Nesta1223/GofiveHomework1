@@ -11,7 +11,7 @@ export interface User{
 
 
 }
-export interface AddUser{
+export interface AddUserRequest{
     userId : string;
     firstName : string;
     lastName : string;
@@ -21,7 +21,7 @@ export interface AddUser{
     username : string;
     password: string;
 }
-export interface UpdateUser{
+export interface UpdateUserRequest{
     userId : string;
     firstName : string;
     lastName : string;
@@ -43,7 +43,7 @@ export function defaultGetAllUser(): GetAllUser {
     return { orderBy: '', orderDirection: 'asc', pageNumber: 1, pageSize: 20, search: '' };
 }
 // Usage: const params = defaultGetAllUser();
-export interface DeleteUser{
+export interface DeleteUserRequest{
     result: boolean;
     message: string;
 }
